@@ -65,7 +65,9 @@ def get_full_dataset(args):
 
     if args.seed is not None:
         fix_seed(args.seed)
-
+    
+    if args.dataset == 'wine':
+        args.dataset = 'bank'
     with open('data/' + args.dataset  + '/meta.json', 'r+') as f:
         json_data = json.load(f)
         json_data['train_path'] = './data/' + args.dataset + '/train.csv'
