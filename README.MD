@@ -15,6 +15,13 @@ Active learning strategically selects informative unlabeled data points and quer
 # Datasets
 The "bank" and "diabetes" datasets are included in this code and other datasets can be loaded from the [UCI Repository](https://archive.ics.uci.edu/) with their API [ucimlrepo](https://github.com/uci-ml-repo/ucimlrepo).
 
+# Running
+Run the code for binary dataset "bank"
+> python main_binary.py --dataset bank --diabetes  n
+
+Run the code for multi-class dataset "wine_quality"
+> python main_multi.py --dataset wine --diabetes  n
+
 
 # Acknowledgement
 This project is built on the open-source [InfDataSel](https://github.com/anshuman23/InfDataSel) and [influence function](https://github.com/Cyrus9721/Characterizing_graph_influence) implementations. Thank the authors for their excellent work.
