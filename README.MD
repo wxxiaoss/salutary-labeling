@@ -8,6 +8,7 @@ Active learning strategically selects informative unlabeled data points and quer
 - python >= 3.6.8
 - pytorch ==>=1.7.0
 - torchvision == >=0.5.0
+- [modAL](https://github.com/modAL-python/modAL)
 - numpy, scipy, PIL, argparse, tqdm, pandas,prettytable,scikit-learn,webcolors,matplotlib,opencv-python,numba
 
 # Acknowledgement
