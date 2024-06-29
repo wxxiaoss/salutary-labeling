@@ -9,7 +9,12 @@ Active learning strategically selects informative unlabeled data points and quer
 - pytorch ==>=1.7.0
 - torchvision == >=0.5.0
 - [modAL](https://github.com/modAL-python/modAL)
+- [ucimlrepo](https://github.com/uci-ml-repo/ucimlrepo)
 - numpy, scipy, PIL, argparse, tqdm, pandas,prettytable,scikit-learn,webcolors,matplotlib,opencv-python,numba
+
+# Datasets
+The "bank" and "diabetes" datasets are included in this code and other datasets can be loaded from the [UCI Repository](https://archive.ics.uci.edu/) with their API [ucimlrepo](https://github.com/uci-ml-repo/ucimlrepo).
+
 
 # Acknowledgement
 This project is built on the open-source [InfDataSel](https://github.com/anshuman23/InfDataSel) and [influence function](https://github.com/Cyrus9721/Characterizing_graph_influence) implementations. Thank the authors for their excellent work.
